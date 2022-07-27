@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "bourne",
+      "firstname": "jason"
+    },
+    {
+      "id": 2,
+      "name": "bond",
+      "firstname": "james"
+    },
+    {
+      "id": 3,
+      "name": "bourdin",
+      "firstname": "jacques"
+    }
+  ]
+}

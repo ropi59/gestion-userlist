@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/*couleur de fond de la page*/
+body {
+  background-color: whitesmoke;
+}
+
+/*style du titre*/
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: red;
+  text-align: center;
+}
+/* style de l'affichage de chaque utilisateur*/
+.userContainer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  margin: 0.2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 15px;
+  padding: 1em;
+  box-shadow: 5px 5px 5px lightgrey;
+  align-items: center;
+}
+
+/*style du bouton annuler dans le container des utilisateurs*/
+.deleteButton {
+  color: red;
+  background-color: transparent;
+  border: 0.1em solid red;
+  border-radius: 50px;
+  margin-right: 0.5em;
+}
+
+/*effet hover sur le bouton annuler dans le container des utilisateurs*/
+.deleteButton:hover {
+  color: white;
+  background-color: red;
+  border: 0.1em solid red;
+  border-radius: 50px;
+}
+
+/*style du container pour ajouter un utilisateur*/
+.addUserContainer {
+  background-color: white;
+  margin: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px lightgrey;
+}
+
+/* espace entre les inputs du container ajouter un utilisateur*/
+input {
+  margin-right: 0.5em;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  outline: none;
+  padding: 0.3em;
+}
+
+/*style du bouton valider dans le container ajouter un utilisateur*/
+.addUserContainer button {
+  color: green;
+  background-color: transparent;
+  border: 0.1em solid green;
+  border-radius: 15px;
+  padding: 0.3em;
+}
+
+.addUserContainer button:hover {
+  color: white;
+  background-color: green;
+  border-radius: 15px;
+  padding: 0.3em;
+}
+
+/*style du bouton valider dans le container utilisateur*/
+.validateButton {
+  color: green;
+  background-color: transparent;
+  border: 0.1em solid green;
+  border-radius: 50px;
+}
+
+.validateButton:hover {
+  color: white;
+  background-color: green;
+  border: 0.1em solid green;
+  border-radius: 50px;
+}
