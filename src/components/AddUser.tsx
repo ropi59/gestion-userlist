@@ -18,7 +18,6 @@ export const AddUser = (props : any) => {
      */
     const addNewUser = (e : any) => {
         e.preventDefault();
-        console.log("toto");
         props.addNewUser(user);
     }
 
