@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": 2,
+      "id": 1,
       "name": "bourne",
       "firstname": "jason"
     },
@@ -11,9 +11,9 @@
       "firstname": "james"
     },
     {
-      "id": 3,
       "name": "bourdin",
-      "firstname": "jacques"
+      "firstname": "jacques",
+      "id": 3
     }
   ]
 }
